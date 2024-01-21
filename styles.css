@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Cursed Timer UliL";
+  src: url("fonts/CursedTimerUliL.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #1b244a;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score-square {
+  width: 155px;
+  height: 120px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background-color: black;
+}
+
+#guest-score {
+  font-family: "Cursed Timer UliL", sans-serif;
+  font-size: 100px;
+  margin-top: 15px;
+  color: #fbbf24;
+}
+
+#home-score {
+  font-family: "Cursed Timer UliL", sans-serif;
+  font-size: 100px;
+  margin-top: 15px;
+  color: #fbbf24;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Cursed Timer UliL", sans-serif;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+}
+
+.btn:active {
+  background-color: #f94f6d;
+  color: #1b244a;
+}
+
+.new-game {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Cursed Timer UliL", sans-serif;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.new-game:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+}
+
+.new-game:active {
+  background-color: #f94f6d;
+  color: #1b244a;
+}
+
+#timer {
+  font-family: "Cursed Timer UliL", sans-serif;
+  font-size: 100px;
+  margin-top: 15px;
+  color: #f94f6d;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
